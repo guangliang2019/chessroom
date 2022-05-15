@@ -5,7 +5,7 @@ const app = cloudbase.init({
   secretKey: 'MSJuFLBm7E6i4A1cy5wXtzqRnt78uQgh',
 });
 
-const port = 2333;
+const port = 233;
 
 const { Server } = require('socket.io');
 const io = new Server(port, {
